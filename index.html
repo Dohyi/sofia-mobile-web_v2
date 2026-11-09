@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#803f33">
+  <meta name="description" content="筑境·索菲亚：建筑历史与AR互动探索。">
+  <title>筑境·索菲亚</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span>筑境·索菲亚<small>SOFIA · A CLOSER LOOK</small></span>
+      </a>
+      <button id="menu-button" class="icon-button" aria-label="打开导航" aria-expanded="false" aria-controls="navigation">☰</button>
+    </header>
+    <nav id="navigation" aria-label="主要导航" hidden>
+      <a href="#home">首页 <span>01</span></a>
+      <a href="#ar/exterior">外部结构 · AR <span>02</span></a>
+      <a href="#ar/interior">内部空间 · AR <span>03</span></a>
+      <a href="#history">建筑历史 <span>04</span></a>
+      <a href="#compare">历史影像 <span>05</span></a>
+    </nav>
+    <main id="app"></main>
+  </div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
